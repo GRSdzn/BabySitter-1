@@ -1,5 +1,4 @@
 import React from 'react'
-import { ButtonMain } from '../styles/styleTexts';
 
 const HeaderBottom = () => {
   return (
@@ -11,7 +10,7 @@ const HeaderBottom = () => {
               <h1 className=" text-[4vw] uppercase font-bold lg:text-[8vw]">Домашний персонал без посредников</h1>
               <p className="text-[1vw] font-light lg:text-[2vw]">Фотографии вдохновляющие миллионы людей по всему свету</p>
             </div>
-            <button className={ButtonMain}>
+            <button className='bg-[#e09a8e] hover:bg-[#fa9684] duration-300 rounded-full px-7 py-3 text-[#fff] text-[17px]'>
               <p className="text-lg">Подробнее</p>
             </button>
           </div>

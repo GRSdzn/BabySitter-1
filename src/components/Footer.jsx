@@ -8,67 +8,27 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
-            <h2 className={LinkTitle}>Company</h2>
+            <h2 className={LinkTitle}>Компания</h2>
             <ul className="mt-4">
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>About</a>
+                <a href="#" className={LinkStyle}>Главная</a>
               </li>
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>Careers</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Brand Center</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Blog</a>
+                <a href="#" className={LinkStyle}>О нас</a>
               </li>
             </ul>
           </div>
           <div>
-            <h2 className={LinkTitle}>Help center</h2>
+            <h2 className={LinkTitle}>Связь с нами</h2>
             <ul className="mt-4">
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>Discord Server</a>
+                <a href="#" className={LinkStyle}>Номер телефона: 8 988 (412) 12 23</a>
               </li>
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>Twitter</a>
+                <a href="#" className={LinkStyle}>Email: baby_nanya@mail.ru</a>
               </li>
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>Facebook</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className={LinkTitle}>Legal</h2>
-            <ul className="mt-4">
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Privacy Policy</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Licensing</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Terms &amp; Conditions</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className={LinkTitle}>Download</h2>
-            <ul className="mt-4">
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>iOS</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Android</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>Windows</a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className={LinkStyle}>MacOS</a>
+                <a href="#" className={LinkStyle}>Свяжитесь с нами</a>
               </li>
             </ul>
           </div>

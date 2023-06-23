@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title_order {
+  color: #4d4d4d;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.description_order {
+  color: #838383;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: light;
+}
