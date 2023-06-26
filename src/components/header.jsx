@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
       <div className="font-main font-medium flex justify-center py-2 w-full bg-[#ffffff69] text-[#2c2c2c] duration-300 items-center flex-wrap">
-        <ul className="flex px-24 duration-300">
+        <ul className="flex px-24 duration-300 md:p-1">
           <Link
             activeClass="active"
             to="more"
@@ -23,11 +23,11 @@ const Header = () => {
         <div className="w-[50px]">
           <img src={logo} alt="Logo" />
         </div>
-        <ul className="flex px-24">
+        <ul className="flex px-24 md:p-1">
           <li>
             <Link
               activeClass="active"
-              to="Thirty"
+              to="contacts"
               spy={true}
               smooth={true}
               offset={0}

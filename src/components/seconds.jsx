@@ -15,11 +15,8 @@ export const Second = () => {
         <div className="py-2 justify-center flex">
           <div className="border-b-2 border-solid rounded-full w-40 h-1 border-[#fa9684]" />
         </div>
-        <p className={SecondTItle}></p>
       </div>
-      {/* <div className="bg-blockFirst h-[70vh] w-full bg-no-repeat bg-cover"></div> */}
       <div className="flex justify-around flex-wrap mt-14">
-
         <div className="flex flex-col items-center ">
           <img src={clock} alt="img" />
           <div className="flex flex-col items-center text-center max-w-[200px]">

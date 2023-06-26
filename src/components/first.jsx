@@ -2,8 +2,7 @@ import React from 'react'
 import firstImg from '../img/niania.jpg'
 import secondImg from '../img/nyanya2.png'
 import thirtyImg from '../img/123.png'
-import { DescriptionFirst, MainTitle, SecondTItle, ThirtyTitle } from '../styles/styleTexts';
-import { motion } from "framer-motion";
+import { DescriptionFirst, MainTitle, ThirtyTitle } from '../styles/styleTexts';
 
 export const First = () => {
   return (
@@ -18,7 +17,7 @@ export const First = () => {
       <div className="leading-8">
         <div className="grid grid-flow-col row-span-2 gap-8 py-8 items-center lg:grid-flow-row    delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">
           <div>
-            <img src={firstImg} alt="img" className="max-w-[550px] w-full text-[20px]" />
+            <img src={firstImg} alt="img" className="max-w-[550px] w-full text-[20px] rounded-md" />
           </div>
           <div>
             <h1 className={ThirtyTitle}>Кто такие няни?</h1>
@@ -32,14 +31,14 @@ export const First = () => {
             <p className={DescriptionFirst}>Сервис дарит спокойствие. Быстрый подбор няни, с которой я могу спокойно оставить ребенка.«Cразу связываются менеджеры, понравились няни, на все вопросы отвечают. Сервис 10/10»«Cразу связываются менеджеры, понравились няни, на все вопросы отвечают. Сервис 10/10»</p>
           </div>
           <div className="w-full">
-            <img src={secondImg} alt="img" className="max-w-[550px] w-full text-[20px]" />
+            <img src={secondImg} alt="img" className="max-w-[550px] w-full text-[20px] rounded-md" />
           </div>
         </div>
       </div>
 
       <div className="grid grid-flow-col row-span-2 gap-8 py-8 items-center lg:grid-flow-row-dense ">
         <div className="w-full">
-          <img src={thirtyImg} alt="img" className="max-w-[550px] w-full text-[20px]" />
+          <img src={thirtyImg} alt="img" className="max-w-[550px] w-full text-[20px] rounded-md" />
         </div>
         <div>
           <h1 className={ThirtyTitle}>Какие преимущества заказать няню через сервис?</h1>

@@ -11,8 +11,8 @@ module.exports = {
         blockThirty: "url('/src/img/3.jpg')",
         BlockLyuda: "url('/src/img/block1.jpg')",
         sliderOne: "url('/src/assets/slide1.png')",
-        sliderTwo: "url('/src/assets/slide2.jpg')",
-        sliderThree: "url('/src/assets/slide4.jpg')",
+        sliderTwo: "url('/src/assets/slide2.png')",
+        sliderThree: "url('/src/assets/slide4.png')",
       }
     },
     screens: {

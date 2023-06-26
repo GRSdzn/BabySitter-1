@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import emailjs, { send } from 'emailjs-com';
 import { ThirtyTitle } from '../styles/styleTexts'
 
@@ -30,7 +30,7 @@ export const Thirty = () => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
   return (
-    <section className="my-[140px] bg-blockThirty bg-no-repeat bg-cover bg-center flex justify-center sm:bg-none" id="Thirty">
+    <section className="my-[140px] bg-blockThirty bg-no-repeat bg-cover bg-center flex justify-center sm:bg-none" id="contacts">
       <div className="bg-[#fff] rounded-md w-[550px] p-8 m-20 shadow-md shadow-gray-400 sm:m-0">
         <div>
           <h1 className={ThirtyTitle}>У вас остались вопросы?</h1>

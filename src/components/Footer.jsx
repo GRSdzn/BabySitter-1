@@ -18,7 +18,17 @@ const Footer = () => {
                 <a href="#" className={LinkStyle} onClick={scrollToTop}>Главная</a>
               </li>
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>О нас</a>
+                <Link
+                  activeClass="active"
+                  to="more"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={300}
+                  className={LinkStyle}
+                >
+                  О нас
+                </Link>
               </li>
             </ul>
           </div>
@@ -26,13 +36,23 @@ const Footer = () => {
             <h2 className={LinkTitle}>Связь с нами</h2>
             <ul className="mt-4">
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>Номер телефона: 8 988 (412) 12 23</a>
+                <b className={LinkStyle}>Номер телефона: 8 988 (412) 12 23</b>
               </li>
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>Email: baby_nanya@mail.ru</a>
+                <b className={LinkStyle}>Email: baby_nanya@mail.ru</b>
               </li>
               <li className="mb-4">
-                <a href="#" className={LinkStyle}>Свяжитесь с нами</a>
+                <Link
+                  activeClass="active"
+                  to="contacts"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={300}
+                  className={LinkStyle}
+                >
+                  Остались вопросы ? Свяжитесь с нами
+                </Link>
               </li>
             </ul>
           </div>

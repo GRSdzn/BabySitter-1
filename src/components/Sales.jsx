@@ -16,8 +16,8 @@ const Sales = () => {
           </div>
           <p className={FourthTitle}>с учетом интересов и особенностей ребенка</p>
         </div>
-        <div className="flex justify-between sm:flex-col sm:gap-10">
-          <div className="w-80 flex flex-col text-center items-center shadow-lg shadow-main rounded-lg ">
+        <div className="flex justify-between sm:flex-col sm:gap-10 lg:items-center lg:justify-center flex-wrap lg:gap-10">
+          <div className="w-80 flex flex-col text-center items-center shadow-md shadow-[#cacacac4] rounded-lg  relative">
             <div className="bg-main w-full rounded-lg flex justify-center py-4 h-36">
               <img src={rabbitBaby} alt="img" />
             </div>
@@ -25,7 +25,7 @@ const Sales = () => {
             <p className='font-main font-light text-[#272727] text-[18px] py-2'>Опытный ситтер для грудных детей и малышей</p>
             <p className="font-main text-[20px] mt-20 font-medium text-main">от 690 ₽/час</p>
           </div>
-          <div className="w-80 flex flex-col text-center items-center shadow-lg shadow-main rounded-lg">
+          <div className="w-80 flex flex-col text-center items-center shadow-md shadow-[#cacacac4] rounded-lg ">
             <div className="bg-main w-full rounded-lg flex justify-center py-4 h-36">
               <img src={couple} alt="img" />
             </div>
@@ -33,7 +33,7 @@ const Sales = () => {
             <p className='font-main font-light text-[#272727] text-[18px] py-2'>Активный и заботливый ситтер для детей дошкольного и школьного возраста</p>
             <p className="font-main text-[20px] mt-8 font-medium text-main">от 690 ₽/час</p>
           </div>
-          <div className="w-80 flex flex-col text-center items-center shadow-lg shadow-main rounded-lg">
+          <div className="w-80 flex flex-col text-center items-center shadow-md shadow-[#cacacac4] rounded-lg ">
             <div className="bg-main w-full rounded-lg flex justify-center py-4 h-36">
               <img src={rabbitGraduate} alt="img" />
             </div>
@@ -41,7 +41,7 @@ const Sales = () => {
             <p className='font-main font-light text-[#272727] text-[18px] py-2'>Внимательная няня-воспитатель, педагог или со знанием инотранных языков</p>
             <p className="font-main text-[20px] mt-8 font-medium text-main">от 690 ₽/час</p>
           </div>
-          <div className="w-80 flex flex-col text-center items-center shadow-lg shadow-main rounded-lg">
+          <div className="w-80 flex flex-col text-center items-center shadow-md shadow-[#cacacac4] rounded-lg ">
             <div className="bg-main w-full rounded-lg flex justify-center py-4 h-36">
               <img src={little} alt="img" />
             </div>
