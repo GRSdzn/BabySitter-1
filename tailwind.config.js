@@ -10,6 +10,9 @@ module.exports = {
         blockFirst: "url('/src/img/nyanya2.png')",
         blockThirty: "url('/src/img/3.jpg')",
         BlockLyuda: "url('/src/img/block1.jpg')",
+        sliderOne: "url('/src/assets/slide1.png')",
+        sliderTwo: "url('/src/assets/slide2.jpg')",
+        sliderThree: "url('/src/assets/slide4.jpg')",
       }
     },
     screens: {
@@ -29,6 +32,8 @@ module.exports = {
       sm: { max: '639px' },
       // => @media (max-width: 639px) { ... }
       lp: { max: '320px' },
+
+      gg: { max: '360px' },
     },
     colors: {
       'main': '#e09a8e',

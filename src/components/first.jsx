@@ -7,19 +7,15 @@ import { motion } from "framer-motion";
 
 export const First = () => {
   return (
-
-    <section className="py-[140px] grid">
+    <section className="py-[140px] grid" id='more'>
       <div className="leading-[80px] text-center">
         <h1 className={MainTitle}>О нас</h1>
         <div className="py-2 justify-center flex">
           <div className="border-b-2 border-solid rounded-full w-40 h-1 border-[#fa9684]" />
         </div>
-        <p className={SecondTItle}></p>
       </div>
 
-
       <div className="leading-8">
-
         <div className="grid grid-flow-col row-span-2 gap-8 py-8 items-center lg:grid-flow-row    delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">
           <div>
             <img src={firstImg} alt="img" className="max-w-[550px] w-full text-[20px]" />
@@ -48,11 +44,8 @@ export const First = () => {
         <div>
           <h1 className={ThirtyTitle}>Какие преимущества заказать няню через сервис?</h1>
           <p className={DescriptionFirst}>Во-первых, все этапы подбора бебиситтера мы полностью берем на себя без лишней комиссии.
-
             Во-вторых, с нами вы никогда не столкнетесь с непрофессионалами.
-
             В-третьих, оформляя заказ через наш сервис, вы можете быть уверены, что ситтер придет к вам в назначенное время. В случае форс-мажора, мы сможем быстро подобрать замену и ваши планы не будут отменены.
-
             Кроме того, мы закрываем ситтерам доступ к заказам, если договоренности с клиентом проходят вне сервиса. Пожалуйста, помните об этом. Благодарим, что уважаете правила сервиса. </p>
         </div>
       </div>

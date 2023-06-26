@@ -6,11 +6,13 @@ import { Second } from './../components/seconds';
 import { Thirty } from './../components/thirty';
 import BookSource from '../components/BookSource';
 import Sales from './../components/Sales';
+import Carousel from '../components/Carousel';
 
 const Home = () => {
   return (
     <>
-      <HeaderBottom />
+      <Carousel />
+      {/* <HeaderBottom /> */}
       <div className="px-[10vw] font-main">
         <First />
         <Second />
