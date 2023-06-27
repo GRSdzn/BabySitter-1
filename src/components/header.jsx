@@ -34,7 +34,7 @@ const Header = () => {
               duration={300}
               className="px-3 cursor-pointer hover:text-[#fa9684] duration-300 ease-in-out"
             >
-              Контакты
+              Задать вопрос
             </Link>
           </li>
         </ul>

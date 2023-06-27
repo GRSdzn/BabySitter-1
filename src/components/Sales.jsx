@@ -26,9 +26,11 @@ const Sales = () => {
             <p className="font-main text-[20px] mt-20 font-medium text-main">от 690 ₽/час</p>
           </div>
           <div className="w-80 flex flex-col text-center items-center shadow-md shadow-[#cacacac4] rounded-lg ">
+            
             <div className="bg-main w-full rounded-lg flex justify-center py-4 h-36">
               <img src={couple} alt="img" />
             </div>
+            
             <h1 className={FourthTitle}>«Няня на час» для дошкольного и школьного возраста</h1>
             <p className='font-main font-light text-[#272727] text-[18px] py-2'>Активный и заботливый ситтер для детей дошкольного и школьного возраста</p>
             <p className="font-main text-[20px] mt-8 font-medium text-main">от 690 ₽/час</p>

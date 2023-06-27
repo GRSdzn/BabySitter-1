@@ -62,8 +62,8 @@ const Footer = () => {
           </span>
         </div>
       </div>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A719fe180886abd635419f04e590037e8d3ce13eafc2257b00e493c612dc7f7f7&amp;source=constructor" width="100%" height="287" cancelable='false' frameBorder="0" className="rounded-md"></iframe>
     </footer>
-
   )
 }
 
